@@ -10,9 +10,9 @@
     <form id="form1" runat="server">
     <div class="block text-center">
         <span style="font-size:28px">Faça suas conversões para diegão!</span>
-        <asp:TextBox CssClass="form-control" placeholder="digite um número!" TextMode="Number" min="0" ID="TextBox1" runat="server"></asp:TextBox>
+        <input type="text" placeholder="Digite um número!" textmode="number">
         <br />
-        <asp:Button CssClass="btn-success btn" ID="B1" runat="server" Text="Converter" OnClick="B1_Click" />
+        <input type="button" class="btn-sucess btn" text=Converter!/>
         <br />
     </div>
         <div class="block2 text-center">
